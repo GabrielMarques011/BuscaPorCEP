@@ -1,0 +1,53 @@
+*{
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+body{
+    background-image: url(../Img/fundoBusca.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form{
+    background-color: white;
+    /* border: 2px rgb(54, 54, 54) solid; */
+    box-shadow: 0 0 1em black;
+    padding: 50px;
+    border-radius: 25px;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.texto{
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 0 0 1.5em black;
+}
+
+.mb-3{
+    font-weight: 700 !important;
+    font-size: 15px !important;
+}
+
+.botao{
+    width: 150px !important;
+    margin: 0 auto !important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: rgb(112, 112, 112) 2px solid;
+    border-radius: 15px;
+}
+
+.botao:hover{
+    background-color: rgb(49, 49, 49) !important;
+    color: white !important;
+    border: rgb(78, 78, 78) 2px solid !important;
+    border: rgb(0, 0, 0) 2px solid;
+}
